@@ -1,0 +1,22 @@
+In main branch 
+    touch index.html
+    git add index.html
+    git commit -m "Initial commit in main branch"
+
+created a branch called feature-branch
+    made two to three commits in the feature-branch 
+    used git log --oneline and copied the one id
+
+checked out to main branch 
+    and used the id to merge the commit of the particular id
+
+Had a conflict
+    <<<<<<< HEAD
+    <h1>Welcome to the Main Branch</h1>
+=======
+    <h1>Welcome to the Feature Branch</h1>
+    <p>This is a new paragraph added in the feature branch.</p>
+>>>>>>> f18e59b (Added a new paragraph in feature branch)
+
+
+
