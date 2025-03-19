@@ -1,0 +1,7 @@
+git stash -	Saves uncommitted changes temporarily and reverts files to the last committed state.
+
+git stash list - Displays all stashed changes
+
+git stash pop - Restores the most recent stash
+
+git stash drop - Deletes the most recent stash.
