@@ -9,6 +9,7 @@ created a branch called feature-branch
 
 checked out to main branch 
     and used the id to merge the commit of the particular id
+    git cherry-pick <commit-hash>
 
 Had a conflict
     <<<<<<< HEAD
